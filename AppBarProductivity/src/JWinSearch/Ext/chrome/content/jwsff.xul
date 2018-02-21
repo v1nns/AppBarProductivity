@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+         id="JWinSearchFFTabEnumeratorOverlay">
+  <script id="JWSFF_SRC"  src="jwsff.js"/>
+  <script id="JWSFF_START" > <![CDATA[var jfftabenumerator = new JFFTabEnumeratorJS;]]></script>
+</overlay>
+

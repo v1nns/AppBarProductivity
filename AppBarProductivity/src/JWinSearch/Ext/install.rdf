@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{6fd74da0-cb84-447f-83e5-5d714cd41ae3}"
+                   em:name="JWinSearchFFTabEnumerator"
+                   em:version="0.11"
+                   em:creator="Jorge Vasquez"
+                   em:description="Enumerates Firefox tabs for JWinSearch">
+    <em:targetApplication RDF:resource="rdf:#$kflNY2"/>
+    <em:file RDF:resource="urn:mozilla:extension:file:"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:file:"
+                   em:package="content/" />
+  <RDF:Description RDF:about="rdf:#$kflNY2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="2.0.0.*" />
+</RDF:RDF>

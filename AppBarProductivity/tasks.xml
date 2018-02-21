@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<root name="Tarefas">
+	<category name="Dezembro/15" category="1" checked="0" enabled="1">
+		<task name="Tarefa 1" checked="0" enabled="1">
+		</task>
+	</category>
+	<category name="Janeiro/16" category="1" checked="0" enabled="1">
+		<task name="Tarefa 1" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 2 sera que vai mesmo" checked="0" enabled="1">
+		</task>
+	</category>
+	<category name="Fevereiro/16" category="1" checked="0" enabled="1">
+		<task name="Tarefa 1" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 2" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 3" checked="0" enabled="1">
+		</task>
+	</category>
+	<category name="Março/16" category="1" checked="0" enabled="1">
+		<task name="Tarefa 1" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 2" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 3" checked="0" enabled="1">
+		</task>
+	</category>
+	<category name="Abril/16" category="1" checked="0" enabled="1">
+		<task name="Tarefa 1" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 2" checked="0" enabled="1">
+		</task>
+		<task name="Tarefa 3" checked="0" enabled="1">
+		</task>
+	</category>
+</root>

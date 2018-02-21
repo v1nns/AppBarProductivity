@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JWinSearch", "JWinSearch\JWinSearch.vcproj", "{03625D4E-115D-471F-9385-EF67B0E63961}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JWinSearchFFTabEnumerator", "JWinSearchFFTabEnumerator\JWinSearchFFTabEnumerator.vcproj", "{77B5C183-7B2B-4F6F-BF45-349562CDA54E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JWinSearchSetup", "JWinSearchSetup\JWinSearchSetup.vdproj", "{5866FE1F-65CE-498E-B8FB-11EA155C7FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03625D4E-115D-471F-9385-EF67B0E63961}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03625D4E-115D-471F-9385-EF67B0E63961}.Debug|Win32.Build.0 = Debug|Win32
+		{03625D4E-115D-471F-9385-EF67B0E63961}.Release|Win32.ActiveCfg = Release|Win32
+		{03625D4E-115D-471F-9385-EF67B0E63961}.Release|Win32.Build.0 = Release|Win32
+		{77B5C183-7B2B-4F6F-BF45-349562CDA54E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77B5C183-7B2B-4F6F-BF45-349562CDA54E}.Debug|Win32.Build.0 = Debug|Win32
+		{77B5C183-7B2B-4F6F-BF45-349562CDA54E}.Release|Win32.ActiveCfg = Release|Win32
+		{77B5C183-7B2B-4F6F-BF45-349562CDA54E}.Release|Win32.Build.0 = Release|Win32
+		{5866FE1F-65CE-498E-B8FB-11EA155C7FC3}.Debug|Win32.ActiveCfg = Debug
+		{5866FE1F-65CE-498E-B8FB-11EA155C7FC3}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

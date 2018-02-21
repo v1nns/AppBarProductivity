@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0FA46BE2-5978-42D3-BEA0-298BE13E7ABD}</ProjectGuid>
+    <RootNamespace>AppBarProductivity</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./src/JWinSearch/JWinSearch;./;./src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AppBarProductivity.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AppBarProductivity.aps" />
+    <None Include="res\AppBarHook.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AppBarProductivity.ico" />
+    <Image Include="res\calendar.ico" />
+    <Image Include="res\help.bmp" />
+    <Image Include="res\pushpin.bmp" />
+    <Image Include="res\pushpin_new_test.bmp" />
+    <Image Include="res\Sys.bmp" />
+    <Image Include="res\sys_add_tab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AppBarMngr.cpp" />
+    <ClCompile Include="src\AppBarProductivity.cpp" />
+    <ClCompile Include="src\BtnST.cpp" />
+    <ClCompile Include="src\CatListBox.cpp" />
+    <ClCompile Include="src\ColorEdit.cpp" />
+    <ClCompile Include="src\ContextMenu.cpp" />
+    <ClCompile Include="src\FPSMiniCalendar\FPSMiniCalendarCtrl.cpp" />
+    <ClCompile Include="src\FPSMiniCalendar\FPSMiniCalendarListCtrl.cpp" />
+    <ClCompile Include="src\InsertTaskDialog.cpp" />
+    <ClCompile Include="src\JWinSearch\JWinSearch\jwinsearch.cpp" />
+    <ClCompile Include="src\JWinSearch\JWinSearch\stristr.cpp" />
+    <ClCompile Include="src\MainFrm.cpp" />
+    <ClCompile Include="src\PropertySheet\BaseTabCtrl.cpp" />
+    <ClCompile Include="src\PropertySheet\EnTabCtrl.cpp" />
+    <ClCompile Include="src\PropertySheet\TabCtrl\TabCtrl.cpp" />
+    <ClCompile Include="src\PushPin.cpp" />
+    <ClCompile Include="src\ScintillaEditor\ScintillaWnd.cpp" />
+    <ClCompile Include="src\ScintillaEditor\Tokenizer.cpp" />
+    <ClCompile Include="src\TaskLoader.cpp" />
+    <ClCompile Include="src\ToolTip\CeXDib.cpp" />
+    <ClCompile Include="src\ToolTip\Monitors.cpp" />
+    <ClCompile Include="src\ToolTip\MultiMonitor.cpp" />
+    <ClCompile Include="src\ToolTip\Picture.cpp" />
+    <ClCompile Include="src\ToolTip\PPDrawManager.cpp" />
+    <ClCompile Include="src\ToolTip\PPHtmlDrawer.cpp" />
+    <ClCompile Include="src\ToolTip\PPTooltip.cpp" />
+    <ClCompile Include="src\ToolTip\xSkinButton.cpp" />
+    <ClCompile Include="src\ToolTip\XSuperTooltip.cpp" />
+    <ClCompile Include="src\WMDateCtrl\WMDateCtrl.cpp" />
+    <ClCompile Include="src\WMDateCtrl\WVCellData.cpp" />
+    <ClCompile Include="src\WMDateCtrl\WVCellDataItem.cpp" />
+    <ClCompile Include="src\XHtmlTree\Clipboard.cpp" />
+    <ClCompile Include="src\XHtmlTree\CreateCheckboxImageList.cpp" />
+    <ClCompile Include="src\XHtmlTree\FontSize.cpp" />
+    <ClCompile Include="src\XHtmlTree\ROEdit.cpp" />
+    <ClCompile Include="src\XHtmlTree\VisualStylesXP.cpp" />
+    <ClCompile Include="src\XHtmlTree\XBreadCrumbBar.cpp" />
+    <ClCompile Include="src\XHtmlTree\XColorStatic.cpp" />
+    <ClCompile Include="src\XHtmlTree\XColourPicker.cpp" />
+    <ClCompile Include="src\XHtmlTree\XColourPopup.cpp" />
+    <ClCompile Include="src\XHtmlTree\XEditPrompt.cpp" />
+    <ClCompile Include="src\XHtmlTree\XGlyphButton.cpp" />
+    <ClCompile Include="src\XHtmlTree\XHtmlDraw.cpp" />
+    <ClCompile Include="src\XHtmlTree\XHtmlDrawLink.cpp" />
+    <ClCompile Include="src\XHtmlTree\XHtmlTree.cpp" />
+    <ClCompile Include="src\XHtmlTree\XHyperLink.cpp" />
+    <ClCompile Include="src\XHtmlTree\XListBox.cpp" />
+    <ClCompile Include="src\XHtmlTree\XMessageBox.cpp" />
+    <ClCompile Include="src\XHtmlTree\XmlDocument.cpp" />
+    <ClCompile Include="src\XHtmlTree\XNamedColors.cpp" />
+    <ClCompile Include="src\XHtmlTree\XString.cpp" />
+    <ClCompile Include="src\XHtmlTree\XTMemDC.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="src\AppBarMngr.h" />
+    <ClInclude Include="src\AppBarProductivity.h" />
+    <ClInclude Include="src\BtnST.h" />
+    <ClInclude Include="src\CatListBox.h" />
+    <ClInclude Include="src\Color.h" />
+    <ClInclude Include="src\ColorEdit.h" />
+    <ClInclude Include="src\ContextMenu.h" />
+    <ClInclude Include="src\FPSMiniCalendar\FPSMiniCalendarCtrl.h" />
+    <ClInclude Include="src\FPSMiniCalendar\FPSMiniCalendarListCtrl.h" />
+    <ClInclude Include="src\FPSMiniCalendar\MemDC.h" />
+    <ClInclude Include="src\InsertTaskDialog.h" />
+    <ClInclude Include="src\JWinSearch\FFTabEnumeratorDefs.h" />
+    <ClInclude Include="src\JWinSearch\JWinSearch\jwinsearch.h" />
+    <ClInclude Include="src\JWinSearch\JWinSearch\resource_j.h" />
+    <ClInclude Include="src\MainFrm.h" />
+    <ClInclude Include="src\PropertySheet\BaseTabCtrl.h" />
+    <ClInclude Include="src\PropertySheet\EnTabCtrl.h" />
+    <ClInclude Include="src\PropertySheet\TabCtrl\Draw.h" />
+    <ClInclude Include="src\PropertySheet\TabCtrl\TabCtrl.h" />
+    <ClInclude Include="src\PropertySheet\TabCtrl\Tools.h" />
+    <ClInclude Include="src\PushPin.h" />
+    <ClInclude Include="src\ScintillaEditor\Accessor.h" />
+    <ClInclude Include="src\ScintillaEditor\KeyWords.h" />
+    <ClInclude Include="src\ScintillaEditor\Platform.h" />
+    <ClInclude Include="src\ScintillaEditor\PropSet.h" />
+    <ClInclude Include="src\ScintillaEditor\SciLexer.h" />
+    <ClInclude Include="src\ScintillaEditor\Scintilla.h" />
+    <ClInclude Include="src\ScintillaEditor\ScintillaWidget.h" />
+    <ClInclude Include="src\ScintillaEditor\ScintillaWnd.h" />
+    <ClInclude Include="src\ScintillaEditor\SString.h" />
+    <ClInclude Include="src\ScintillaEditor\Tokenizer.h" />
+    <ClInclude Include="src\ScintillaEditor\WindowAccessor.h" />
+    <ClInclude Include="src\TaskLoader.h" />
+    <ClInclude Include="src\ToolTip\CeXDib.h" />
+    <ClInclude Include="src\ToolTip\Monitors.h" />
+    <ClInclude Include="src\ToolTip\MultiMonitor.h" />
+    <ClInclude Include="src\ToolTip\Picture.h" />
+    <ClInclude Include="src\ToolTip\PPDrawManager.h" />
+    <ClInclude Include="src\ToolTip\PPHtmlDrawer.h" />
+    <ClInclude Include="src\ToolTip\PPTooltip.h" />
+    <ClInclude Include="src\ToolTip\xSkinButton.h" />
+    <ClInclude Include="src\ToolTip\XSuperTooltip.h" />
+    <ClInclude Include="src\WMDateCtrl\WMDateCtrl.h" />
+    <ClInclude Include="src\WMDateCtrl\WVCellData.h" />
+    <ClInclude Include="src\WMDateCtrl\WVCellDataItem.h" />
+    <ClInclude Include="src\XHtmlTree\Clipboard.h" />
+    <ClInclude Include="src\XHtmlTree\CreateCheckboxImageList.h" />
+    <ClInclude Include="src\XHtmlTree\FontSize.h" />
+    <ClInclude Include="src\XHtmlTree\ROEdit.h" />
+    <ClInclude Include="src\XHtmlTree\VisualStylesXP.h" />
+    <ClInclude Include="src\XHtmlTree\XBreadCrumbBar.h" />
+    <ClInclude Include="src\XHtmlTree\XColorStatic.h" />
+    <ClInclude Include="src\XHtmlTree\XColourPicker.h" />
+    <ClInclude Include="src\XHtmlTree\XColourPopup.h" />
+    <ClInclude Include="src\XHtmlTree\XEditPrompt.h" />
+    <ClInclude Include="src\XHtmlTree\XGlyphButton.h" />
+    <ClInclude Include="src\XHtmlTree\XHtmlDraw.h" />
+    <ClInclude Include="src\XHtmlTree\XHtmlDrawLink.h" />
+    <ClInclude Include="src\XHtmlTree\XHtmlTree.h" />
+    <ClInclude Include="src\XHtmlTree\XHyperLink.h" />
+    <ClInclude Include="src\XHtmlTree\XListBox.h" />
+    <ClInclude Include="src\XHtmlTree\XMessageBox.h" />
+    <ClInclude Include="src\XHtmlTree\XmlDocument.h" />
+    <ClInclude Include="src\XHtmlTree\XNamedColors.h" />
+    <ClInclude Include="src\XHtmlTree\XString.h" />
+    <ClInclude Include="src\XHtmlTree\XTMemDC.h" />
+    <ClInclude Include="src\XHtmlTree\XTrace.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AppBarProductivity.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

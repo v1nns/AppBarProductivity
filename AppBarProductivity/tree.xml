@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<XML>
+    <Items>
+        <Item Title="This">
+            <Item Title="is">
+                <Item Title="a">
+                    <Item Title="little test!" />
+                </Item>
+            </Item>
+        </Item>
+    </Items>
+</XML>

@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e5e15ca5-9e33-49ad-baa9-bae8245ce540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_FPSMiniCalendar">
+      <UniqueIdentifier>{0825e336-4cf6-482c-ba13-ed7a5894feae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_JWinSearch">
+      <UniqueIdentifier>{c4ab728a-31c0-42ee-84f2-dbbd58f9e2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_JWinSearch\Header Files">
+      <UniqueIdentifier>{dc732ef6-19f4-4921-9c06-cb26c59fe02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_JWinSearch\Source Files">
+      <UniqueIdentifier>{19a02ff2-0cc0-42a2-b9c8-7e6467c0b52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_PropertySheet">
+      <UniqueIdentifier>{e96d90a8-2a13-4be5-9ce9-473c7e9d139c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_PropertySheet\TabCtrl">
+      <UniqueIdentifier>{3c6e50d5-a4ae-467e-8d3c-5195372c899c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{5f24c4b9-1dbe-4b9a-b474-3e5c207a554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_ScintillaEditor">
+      <UniqueIdentifier>{d83df03b-88cc-4017-bdb6-48b7d20bb5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_ToolTip">
+      <UniqueIdentifier>{41f3498c-3b1c-4cad-b18f-248bf192b57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_WMDateCtrl">
+      <UniqueIdentifier>{fc630b4f-0306-44ed-9305-2c06d01057e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_XHtmlTree">
+      <UniqueIdentifier>{341358bd-51ca-4f2e-8d42-223edcecd221}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AppBarProductivity.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AppBarProductivity.aps" />
+    <None Include="res\AppBarHook.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AppBarProductivity.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pushpin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pushpin_new_test.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sys.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sys_add_tab.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\calendar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JWinSearch\JWinSearch\jwinsearch.cpp">
+      <Filter>src\_JWinSearch\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JWinSearch\JWinSearch\stristr.cpp">
+      <Filter>src\_JWinSearch\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppBarMngr.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppBarProductivity.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CatListBox.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorEdit.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ContextMenu.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainFrm.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PushPin.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPSMiniCalendar\FPSMiniCalendarCtrl.cpp">
+      <Filter>src\_FPSMiniCalendar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPSMiniCalendar\FPSMiniCalendarListCtrl.cpp">
+      <Filter>src\_FPSMiniCalendar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropertySheet\BaseTabCtrl.cpp">
+      <Filter>src\_PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropertySheet\EnTabCtrl.cpp">
+      <Filter>src\_PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropertySheet\TabCtrl\TabCtrl.cpp">
+      <Filter>src\_PropertySheet\TabCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InsertTaskDialog.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskLoader.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScintillaEditor\ScintillaWnd.cpp">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScintillaEditor\Tokenizer.cpp">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\CeXDib.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\Monitors.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\MultiMonitor.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\Picture.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\PPDrawManager.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\PPHtmlDrawer.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\PPTooltip.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\xSkinButton.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\XSuperTooltip.cpp">
+      <Filter>src\_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WMDateCtrl\WMDateCtrl.cpp">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WMDateCtrl\WVCellData.cpp">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WMDateCtrl\WVCellDataItem.cpp">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\Clipboard.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\CreateCheckboxImageList.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\FontSize.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\ROEdit.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\VisualStylesXP.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XBreadCrumbBar.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XColorStatic.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XColourPicker.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XColourPopup.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XEditPrompt.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XGlyphButton.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XHtmlDraw.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XHtmlDrawLink.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XHtmlTree.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XHyperLink.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XListBox.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XMessageBox.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XmlDocument.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XNamedColors.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XString.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XHtmlTree\XTMemDC.cpp">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BtnST.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\XHtmlTree\Clipboard.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\CreateCheckboxImageList.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\FontSize.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\ROEdit.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\VisualStylesXP.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XBreadCrumbBar.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XColorStatic.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XColourPicker.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XColourPopup.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XEditPrompt.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XGlyphButton.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XHtmlDraw.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XHtmlDrawLink.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XHtmlTree.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XHyperLink.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XListBox.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XMessageBox.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XmlDocument.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XNamedColors.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XString.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XTMemDC.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XHtmlTree\XTrace.h">
+      <Filter>src\_XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JWinSearch\FFTabEnumeratorDefs.h">
+      <Filter>src\_JWinSearch\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JWinSearch\JWinSearch\jwinsearch.h">
+      <Filter>src\_JWinSearch\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JWinSearch\JWinSearch\resource_j.h">
+      <Filter>src\_JWinSearch\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppBarMngr.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppBarProductivity.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CatListBox.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorEdit.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ContextMenu.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainFrm.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PushPin.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FPSMiniCalendar\FPSMiniCalendarCtrl.h">
+      <Filter>src\_FPSMiniCalendar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FPSMiniCalendar\FPSMiniCalendarListCtrl.h">
+      <Filter>src\_FPSMiniCalendar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FPSMiniCalendar\MemDC.h">
+      <Filter>src\_FPSMiniCalendar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertySheet\BaseTabCtrl.h">
+      <Filter>src\_PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertySheet\EnTabCtrl.h">
+      <Filter>src\_PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertySheet\TabCtrl\Draw.h">
+      <Filter>src\_PropertySheet\TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertySheet\TabCtrl\TabCtrl.h">
+      <Filter>src\_PropertySheet\TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertySheet\TabCtrl\Tools.h">
+      <Filter>src\_PropertySheet\TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InsertTaskDialog.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskLoader.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\Accessor.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\KeyWords.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\Platform.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\PropSet.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\SciLexer.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\Scintilla.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\ScintillaWidget.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\ScintillaWnd.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\SString.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\WindowAccessor.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScintillaEditor\Tokenizer.h">
+      <Filter>src\_ScintillaEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\CeXDib.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\Monitors.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\MultiMonitor.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\Picture.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\PPDrawManager.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\PPHtmlDrawer.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\PPTooltip.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\xSkinButton.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\XSuperTooltip.h">
+      <Filter>src\_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WMDateCtrl\WMDateCtrl.h">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WMDateCtrl\WVCellData.h">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WMDateCtrl\WVCellDataItem.h">
+      <Filter>src\_WMDateCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BtnST.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
